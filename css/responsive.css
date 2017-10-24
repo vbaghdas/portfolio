@@ -88,7 +88,7 @@
     }
     
     .about .infos .social-media {
-        margin: 0px 0 38px;
+        margin: 0px 0 15px;
     }
     
     .about .infos .parag p {
@@ -129,9 +129,19 @@
     .testim .quote {
         display: none;
     }
+
+    /* Start Works */
+
+    .work .info .row:nth-child(1) > div,
+    .work .info .row:nth-child(2) > div:nth-child(-n+2) {
+        margin-bottom: 20px;
+    }
+
+    .work .info .row:nth-child(2) {
+        margin-top: 0;
+    }
     
-    /* Start Contact */    color: #1abc9c;
-    text-decoration: none;
+    /* Start Contact */
     
     .contact .infos .commun {
         margin-bottom: 30px
