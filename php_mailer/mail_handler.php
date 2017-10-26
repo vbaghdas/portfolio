@@ -25,10 +25,10 @@ $mail->Username = EMAIL_USER;
 $mail->Password = EMAIL_PASS;
 
 // Enable TLS encryption, `ssl` also accepted, but TLS is a newer more-secure encryption
-$mail->SMTPSecure = 'ssl';    
+$mail->SMTPSecure = 'tls';    
 
 // TCP port to connect to
-$mail->Port = 465;
+$mail->Port = 587;
 
 $mail->smtpConnect($options);
 // Sender's email address (shows in "From" field)
