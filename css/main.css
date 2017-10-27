@@ -51,6 +51,10 @@ body {
     color: #fff;
 }
 
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
 section {
     padding: 70px 0;
 }
