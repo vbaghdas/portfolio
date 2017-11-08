@@ -1,4 +1,11 @@
-/*global $ ,jQuery ,alert, console, Typed, Swiper */
+/* global $ ,jQuery ,alert, console, typed, swiper */
+
+// Hamburger Menu Collapse
+$(document).ready(function () {
+    $(".navbar li a").click(function(event) {
+      $(".navbar-collapse").collapse('hide');
+    });
+  });
 
 // Loading Screen 
     
