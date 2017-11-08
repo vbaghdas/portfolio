@@ -16,9 +16,9 @@ $mail->isSMTP();
 $mail->SMTPAuth = true;         
 
 // Contact Form
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST['message'];
+$name = filter_var($_POST['name'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW);
+$visitor_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+$message = filter_val($_POST['message'], FILTER_SANITIZE_STRING);
 
 // Set login details for gmail account
 $mail->Username = EMAIL_USER;
