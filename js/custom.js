@@ -120,7 +120,7 @@ $(function () {
     
     $(window).on("scroll", function () {
         
-        if ($(document).scrollTop() > 350) {
+        if ($(document).scrollTop() > 300) {
             
             $('nav').addClass('shrink');
             
