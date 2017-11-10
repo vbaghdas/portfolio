@@ -2,10 +2,10 @@
 
 // Hamburger Menu Collapse
 $(document).ready(function () {
-    $(".navbar li a").click(function(event) {
+    $(".navbar li a, .navbar h2").click(function(event) {
       $(".navbar-collapse").collapse('hide');
     });
-  });
+});
 
 // Loading Screen 
     
