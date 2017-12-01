@@ -4,6 +4,10 @@
 @media(min-width: 100px) and (max-width: 767px) {
     
     /* Start Navbar */
+
+    .navbar-header {
+        background-color: rgba(37,42,51,0.9);
+    }
     
     .navbar-toggle {
         margin-top: 12px;
@@ -33,9 +37,7 @@
     }
     
     .navbar-default .navbar-collapse {
-        background: #FFF;
-        max-width: 300px;
-        margin: auto;
+        
     }
     
     .navbar-toggle .icon-bar {
