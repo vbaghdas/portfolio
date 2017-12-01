@@ -39,7 +39,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat';
+    font-weight: 700;
     -webkit-font-smoothing: antialiased;;
     -moz-font-smoothing: antialiased;;
     -ms-font-smoothing: antialiased;;
@@ -145,7 +146,7 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .navbar .navbar-header a {
-    color: #1abc9c;
+    color: rgb(250, 34, 91);
     text-decoration: none;
 }
 
@@ -434,7 +435,7 @@ nav.shrink .navbar-nav>li>a {
 
 .about .infos .info-perso p:nth-child(2) a:hover {
     text-decoration: none;
-    color: #1abc9c;
+    color: #7a89ab;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -443,7 +444,7 @@ nav.shrink .navbar-nav>li>a {
 
 .about .infos .info-perso button.resume {
     background: transparent;
-    border-color: #1abc9c;
+    border-color: #7a89ab;
     width: 166px;
     padding: 5px;
     margin-bottom: 15px;
@@ -458,8 +459,8 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .about .infos .info-perso button.resume:hover {
-    background: #1abc9c;
-    color: #222;
+    background: #7a89ab;
+    color: #FFF;
     font-weight: 900;
 }
 
@@ -729,7 +730,7 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .work-title h4 {
-    color: #1abc9c;
+    color: #7a89ab;
     text-decoration: none;
 }
 
@@ -739,7 +740,7 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .work-title a:hover {
-    color: #1abc9c;
+    color: #7a89ab;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -864,7 +865,9 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .contact form input[type="submit"]:hover {
-    background-color: rgba(34,34,34,.5);
+    background-color: #7a89ab;
+    border: 1px solid #7a89ab;
+    color: #FFF;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
@@ -879,6 +882,7 @@ nav.shrink .navbar-nav>li>a {
 
 .contact form .form-tip i {
     font-size: 20px;
+    margin-right: 5px;
 }
 
 /*==========================================================
@@ -897,9 +901,9 @@ footer .social-media a {
     color: #FFF;
     border-radius: 50%;
     border: 1px solid #FFF;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    width: 38px;
+    height: 38px;
+    line-height: 40px;
     display: inline-block;
     margin-right: 10px;
     -webkit-transition: all .5s ease-in-out;
@@ -911,7 +915,7 @@ footer .social-media a {
 
 footer .social-media a:hover {
     background-color: #FFF;
-    color: #1abc9c;
+    color: #7a89ab;
 }
 
 footer .copyright p {

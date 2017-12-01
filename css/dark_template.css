@@ -1,9 +1,9 @@
 section {
-    background-color: #1E1E1E;
+    background-color: #20232c;
 }
 
 nav.shrink {
-    background-color: #232323;
+    background-color: rgba(37,42,51,0.9);
 }
 
 .work .show-more,
@@ -30,7 +30,7 @@ nav.shrink .navbar-nav>li>a {
 
 @media (max-width: 767px) and (min-width: 100px) {
 	.navbar-default .navbar-collapse {
-	    background: rgba(34,34,34,0.8);
+	    background: rgba(37,42,51,0.9);
 	}
 
 	.navbar-default .navbar-nav>li>a {

@@ -10,7 +10,7 @@
 .contact .commun span,
 .contact form input,
 footer .social-media a:hover{
-    color: #1abc9c;
+    color: rgb(250, 34, 91);
 }
 
 .line,
@@ -19,20 +19,20 @@ footer .social-media a:hover{
 .about .buttons a:last-of-type:hover,
 .overlay,
 .swiper-pagination-bullet-active {
-    background-color: #1abc9c!important;
+    background-color: #7a89ab!important;
 }
 
 .work .show-more,
 .work .show-less {
-    border: 1px solid #1abc9c;
+    border: 1px solid #7a89ab;
 }
 
 .about .buttons a {
-    border: 2px solid #1abc9c;
+    border: 2px solid #7a89ab;
 }
 
 .about .image img {
-    border: 3px solid #1abc9c;
+    border: 3px solid #7a89ab;
 }
 
 /********************** END COLORS **********************/
