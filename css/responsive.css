@@ -1,11 +1,13 @@
 /* ------------------------- Start Media Query -------------------------------------- */
 
-/* X Small Screen */
-@media(min-width: 100px) and (max-width: 767px) {
-
+@media(max-width: 414px) {
     .home, .overlay-home, .stat, .testim, .contact {
         background-image: none!important;
     }
+}
+
+/* X Small Screen */
+@media(min-width: 100px) and (max-width: 767px) {
     
     /* Start Navbar */
 
