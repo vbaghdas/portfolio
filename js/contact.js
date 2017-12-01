@@ -18,25 +18,25 @@
         var proceed = true;
         if (user_name == "" || user_name == " ") {
             $('input[name=name]').css('border-color', '#e41919');
-            $('.form-tip').css('color', '#e41919');
+            $('.form-tip').css('color', '#fa225b');
             proceed = false;
         }
         if (user_email == "" || user_name == " ") {
             $('input[name=email]').css('border-color', '#e41919');
-            $('.form-tip').css('color', '#e41919');
+            $('.form-tip').css('color', '#fa225b');
             proceed = false;
         }
 
         if (user_message == "" || user_name == " ") {
-            $('textarea[name=message]').css('border-color', '#e41919');
-            $('.form-tip').css('color', '#e41919');
+            $('textarea[name=message]').css('border-color', '#fa225b');
+            $('.form-tip').css('color', '#fa225b');
             proceed = false;
         }
         var atpos = user_email.indexOf("@");
         var dotpos = user_email.lastIndexOf(".");
         if (atpos<1 || dotpos<atpos+2 || dotpos+2>=user_email.length) {
-            $('input[name=email]').css('border-color', '#e41919');
-            $('.form-tip').css('color', '#e41919');
+            $('input[name=email]').css('border-color', '#fa225b');
+            $('.form-tip').css('color', '#fa225b');
             proceed = false;
         }
 

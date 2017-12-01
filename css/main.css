@@ -444,7 +444,7 @@ nav.shrink .navbar-nav>li>a {
 
 .about .infos .info-perso button.resume {
     background: transparent;
-    border-color: #7a89ab;
+    border-color: rgb(250, 34, 91);
     width: 166px;
     padding: 5px;
     margin-bottom: 15px;
@@ -459,8 +459,7 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .about .infos .info-perso button.resume:hover {
-    background: #7a89ab;
-    color: #FFF;
+    background: rgb(250, 34, 91);
     font-weight: 900;
 }
 
@@ -552,6 +551,7 @@ nav.shrink .navbar-nav>li>a {
 
 .serv .infos img {
     width: 65px;
+    height: 65px;
     margin: auto;
 }
 
@@ -730,7 +730,7 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .work-title h4 {
-    color: #7a89ab;
+    color: rgb(250, 34, 91);
     text-decoration: none;
 }
 
@@ -740,7 +740,7 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .work-title a:hover {
-    color: #7a89ab;
+    color: rgb(250, 34, 91);
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -865,8 +865,8 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .contact form input[type="submit"]:hover {
-    background-color: #7a89ab;
-    border: 1px solid #7a89ab;
+    background-color: rgb(250, 34, 91);
+    border: 1px solid rgb(250, 34, 91);
     color: #FFF;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
