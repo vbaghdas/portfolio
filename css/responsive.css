@@ -4,7 +4,7 @@
 @media(min-width: 100px) and (max-width: 767px) {
 
     .home, .overlay-home, .stat, .testim, .contact {
-        background-image: none;
+        background-image: none!important;
     }
     
     /* Start Navbar */
