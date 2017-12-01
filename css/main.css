@@ -110,9 +110,6 @@ nav ul li {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #FFF;
-    font-size: 14px;
-    margin-top: 10px;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
@@ -975,8 +972,8 @@ footer .copyright p:last-of-type {
 /* Start Loading */
 
 .loading-overlay {
-    background: #FFF;
-    color: #444;
+    background: #20232c;
+    color: rgb(250, 34, 91);
     position: absolute;
     left: 0;
     top: 0;
@@ -1023,7 +1020,7 @@ footer .copyright p:last-of-type {
 		-ms-animation: cssload-rotate-one 1.15s linear infinite;
 		-webkit-animation: cssload-rotate-one 1.15s linear infinite;
 		-moz-animation: cssload-rotate-one 1.15s linear infinite;
-	border-bottom: 3px solid rgb(0,0,0);
+	border-bottom: 5px solid rgb(250, 34, 91);
 }
 
 .cssload-inner.cssload-two {
@@ -1034,7 +1031,7 @@ footer .copyright p:last-of-type {
 		-ms-animation: cssload-rotate-two 1.15s linear infinite;
 		-webkit-animation: cssload-rotate-two 1.15s linear infinite;
 		-moz-animation: cssload-rotate-two 1.15s linear infinite;
-	border-right: 3px solid rgb(0,0,0);
+	border-right: 5px solid rgb(250, 34, 91);
 }
 
 .cssload-inner.cssload-three {
@@ -1045,7 +1042,7 @@ footer .copyright p:last-of-type {
 		-ms-animation: cssload-rotate-three 1.15s linear infinite;
 		-webkit-animation: cssload-rotate-three 1.15s linear infinite;
 		-moz-animation: cssload-rotate-three 1.15s linear infinite;
-	border-top: 3px solid rgb(0,0,0);
+	border-top: 5px solid rgb(250, 34, 91);
 }
 
 @keyframes cssload-rotate-one {
