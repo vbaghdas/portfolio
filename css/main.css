@@ -39,6 +39,7 @@
 }
 
 body {
+    text-shadow: 0.15vw 0.15vw rgba(0, 0, 0, 0.67);
     font-family: 'Montserrat';
     font-weight: 700;
     -webkit-font-smoothing: antialiased;;
@@ -459,6 +460,7 @@ nav.shrink .navbar-nav>li>a {
 }
 
 .about .infos .info-perso button.resume:hover {
+    text-shadow: 0.15vw 0.15vw rgba(0, 0, 0, 0.67);
     background: rgb(250, 34, 91);
     font-weight: 900;
 }
@@ -803,6 +805,7 @@ nav.shrink .navbar-nav>li>a {
     margin-bottom: 15px;
     border-radius: 2px;
     letter-spacing: 0.5px;
+    text-shadow: none!important;
 }
 
 .contact .infos a {
@@ -821,6 +824,7 @@ nav.shrink .navbar-nav>li>a {
 .contact input[type="text"],
 .contact input[type="email"],
 .contact textarea {
+    text-shadow: 0.15vw 0.15vw rgba(0, 0, 0, 0.67);
     display: block;
     margin: 0 auto 23px;
     background-color: transparent;
@@ -862,9 +866,11 @@ nav.shrink .navbar-nav>li>a {
     border-radius: 1px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    text-shadow: none!important;
 }
 
 .contact form input[type="submit"]:hover {
+    text-shadow: 0.15vw 0.15vw rgba(0, 0, 0, 0.67)!important;
     background-color: rgb(250, 34, 91);
     border: 1px solid rgb(250, 34, 91);
     color: #FFF;
