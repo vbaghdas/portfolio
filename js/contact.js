@@ -68,8 +68,16 @@
     });
 
     //reset previously set border colors and hide all message on .keyup()
-    $("#contactForm input, #contactForm textarea").keyup(function(){
-        $("#contactForm input, #contactForm textarea").css('border-color', '');
+    $("#contactForm #name").keyup(function(){
+        $("#contactForm #name").css('border-color', '');
+    });
+
+    $("#contactForm #email").keyup(function(){
+        $("#contactForm #email").css('border-color', '');
+    });
+
+    $("#contactForm #message").click(function(){
+        $("#contactForm #message").css('border-color', '');
     });
 
 });
