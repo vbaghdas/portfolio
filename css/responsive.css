@@ -1,6 +1,6 @@
 /* ------------------------- Start Media Query -------------------------------------- */
 
-@media(max-width: 414px) {
+@media(max-width: 767px) {
     .home, .overlay-home, .stat, .testim, .contact {
         background-image: none!important;
     }
