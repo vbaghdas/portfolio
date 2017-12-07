@@ -17,13 +17,15 @@ footer .social-media a:hover{
     text-shadow: 0.15vw 0.15vw rgba(0, 0, 0, 0.67);
 }
 
-.line,
+.line {
+    background-color: rgb(250, 34, 91);
+}
 .progress .progress-bar,
 .about .buttons a:first-of-type,
 .about .buttons a:last-of-type:hover,
 .overlay,
 .swiper-pagination-bullet-active {
-    background-color: #7a89ab!important;
+    background-color: #7a89ab;
 }
 
 .work .show-more,

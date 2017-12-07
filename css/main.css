@@ -307,7 +307,7 @@ nav.shrink .navbar-nav>li>a {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(51,51,51,0.2)
+    /* background-color: rgba(51,51,51,0.2); */
 }
 
 .home .title {
@@ -824,7 +824,7 @@ nav.shrink .navbar-nav>li>a {
     display: block;
     margin: 0 auto 23px;
     background-color: transparent;
-    border: 1px solid #FFF;
+    border: 2px solid #FFF;
     padding: 10px;
     width: 75%;
     color: #FFF;
@@ -971,7 +971,7 @@ footer .copyright p:last-of-type {
 /* Start Loading */
 
 .loading-overlay {
-    background: #20232c;
+    background: #141414;
     color: rgb(250, 34, 91);
     position: absolute;
     left: 0;
