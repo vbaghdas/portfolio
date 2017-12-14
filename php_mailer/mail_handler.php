@@ -18,6 +18,7 @@ $mail->SMTPAuth = true;
 // Contact Form
 $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
 $visitor_email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
+$subject = filter_var($_POST["subject"], FILTER_SANITIZE_STRING);
 $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
 // Set login details for gmail account
@@ -46,7 +47,7 @@ $mail->addReplyTo($visitor_email);
 // Set email format to HTML
 $mail->isHTML(true);
 
-$mail->Subject = 'Re: Portfolio Contact Form';
+$mail->Subject = $subject;
 $mail->Body    = $message;
 
 // Send an email

@@ -5,11 +5,12 @@
 ===========================================================*/
 
  $(document).ready(function(){
-    $("#btn").click(function(){
+    $(".btn-submit").click(function(){
 
         //get input field values
         var user_name = $('input[name=name]').val();
         var user_email = $('input[name=email]').val();
+        var user_subject = $('input[name=subject]').val();
         var user_message = $('textarea[name=message]').val();
         var url = "./php_mailer/mail_handler.php"; // the script where you handle the form input.
 
@@ -17,14 +18,17 @@
         //we simply change border color to red if empty field using .css()
         var proceed = true;
         if (user_name == "" || user_name == " ") {
-            $('input[name=name]').css('border-color', '#e41919');
+            $('input[name=name]').css('border-color', '#fa225b');
             proceed = false;
         }
         if (user_email == "" || user_name == " ") {
-            $('input[name=email]').css('border-color', '#e41919');
+            $('input[name=email]').css('border-color', '#fa225b');
             proceed = false;
         }
-
+        if (user_subject == "" || user_name == " ") {
+            $('input[name=subject]').css('border-color', '#fa225b');
+            proceed = false;
+        }
         if (user_message == "" || user_name == " ") {
             $('textarea[name=message]').css('border-color', '#fa225b');
             proceed = false;
@@ -42,24 +46,25 @@
             post_data = {
                 'userName': user_name,
                 'userEmail': user_email,
-                'userMessage': user_message
+                'userMessage': user_message,
+                'userSubject': user_subject
             };
             //Ajax post data to server
             $.ajax({
                 type: "POST",
                 url: url,
-                data: $("#contactForm").serialize(), // serializes the form's elements.
+                data: $("#contact-form").serialize(), // serializes the form's elements.
                 success: function (data) {
-                    $('#contactForm').closest('form').find('input[type=text], textarea').val('');
-                    $('#contactForm').closest('form').find('input[type=email], textarea').val('');
+                    $('#contact-form').closest('form').find('input[type=text], textarea').val('');
+                    $('#contact-form').closest('form').find('input[type=email], textarea').val('');
                     $('.modal-title').text('Thank You!');
                     $('.modal-body > p').text('Your message has been sent successfully.');
-                    $("#contactModal").modal('show');
+                    $("#contact-modal").modal('show');
                 },
                 error: function(response){
                     $('.modal-title').text('Oops!');
                     $('.modal-body > p').text('There seemed to be an error. Please try again.');
-                    $("#contactModal").modal('show');
+                    $("#contact-modal").modal('show');
                 }
             });
         }
@@ -68,16 +73,20 @@
     });
 
     //reset previously set border colors and hide all message on .keyup()
-    $("#contactForm #name").keyup(function(){
-        $("#contactForm #name").css('border-color', '');
+    $("#contact-form #name").keyup(function(){
+        $("#contact-form #name").css('border-color', '');
     });
 
-    $("#contactForm #email").keyup(function(){
-        $("#contactForm #email").css('border-color', '');
+    $("#contact-form #email").keyup(function(){
+        $("#contact-form #email").css('border-color', '');
     });
 
-    $("#contactForm #message").click(function(){
-        $("#contactForm #message").css('border-color', '');
+    $("#contact-form #subject").keyup(function(){
+        $("#contact-form #subject").css('border-color', '');
+    });
+
+    $("#contact-form #message").click(function(){
+        $("#contact-form #message").css('border-color', '');
     });
 
 });
