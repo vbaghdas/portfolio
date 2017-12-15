@@ -1200,6 +1200,7 @@ p {
   display: block;
   margin: auto;
   width: 57.1%;
+  padding-bottom: 40px;
 }
 
 .promo-description {
