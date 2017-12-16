@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   margin-top: 0;
   text-transform: uppercase;
-  color: #bfa67a;
+  color: #111;
   letter-spacing: 0.05em;
   font-weight: 700;
 }
@@ -173,7 +173,7 @@ h6 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
   color: #7a7a7a;
   font-weight: normal;
   line-height: 25px;
@@ -1199,7 +1199,7 @@ p {
 .promo-section img {
   display: block;
   margin: auto;
-  width: 57.1%;
+  width: 61%;
   padding-bottom: 40px;
 }
 
