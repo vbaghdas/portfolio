@@ -350,7 +350,7 @@ p {
 }
 
 .navigation-overlay {
-  background-color: rgba(17, 17, 17, 0.5);
+  /* background-color: rgba(17, 17, 17, 0.5); */
   width: 100%;
   line-height: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2039,7 +2039,8 @@ p {
 }
 
 .video-overlay {
-  background-color: rgba(40, 40, 40, 0.5);
+  /* background-color: rgba(40, 40, 40, 0.5); */
+  background-color: rgba(0, 0, 0, 0.71);
   height: 100%;
   width: 100%;
 }
