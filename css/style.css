@@ -112,7 +112,7 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Pt Serif", serif;
+  font-family: "Libre Franklin", sans-serif;
   color: #7a7a7a;
   font-size: 15px;
   line-height: 1.5;
@@ -140,12 +140,11 @@ body img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   margin-top: 0;
   text-transform: uppercase;
   color: #111;
   letter-spacing: 0.05em;
-  font-weight: 700;
 }
 
 h1 {
@@ -334,7 +333,7 @@ p {
 }
 
 .navbar-nav > li > a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   text-transform: uppercase;
   padding: 0 20px;
   line-height: 90px;
@@ -960,7 +959,7 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 36px;
   letter-spacing: 0.05em;
   color: #fff;
@@ -1578,7 +1577,7 @@ p {
 .skills-progress h6,
 .skills-progress h6 span {
   color: #111;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 13px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -1927,7 +1926,7 @@ p {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -2166,7 +2165,7 @@ p {
   text-decoration: none;
   padding: 7px 15px;
   border: 3px solid #e5e5e5;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2480,7 +2479,7 @@ p {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   color: #111;
 }
 
@@ -2556,7 +2555,7 @@ p {
   text-shadow: none;
   font-weight: 700;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   letter-spacing: 0.02em;
   margin: 0px;
   border-width: 0px;
@@ -2690,7 +2689,7 @@ ol.numbers {
   border: 3px solid #d1d1d1;
   -webkit-border-radius: 0;
   border-radius: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2759,7 +2758,7 @@ ol.numbers {
   -webkit-border-radius: 0;
   border-radius: 0;
   margin-right: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   color: #7a7a7a;
   font-size: 12px;
   text-transform: uppercase;
@@ -2792,7 +2791,7 @@ ol.numbers {
 }
 
 .btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -3064,7 +3063,7 @@ label {
   font-weight: normal;
   color: #111;
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   vertical-align: middle;
@@ -3082,7 +3081,7 @@ label {
   display: block;
   margin-top: 70px;
   font-size: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -3273,7 +3272,7 @@ p.footer-address {
   color: #111;
 }
 
-/* Portfolio
+/* Modal
 -------------------------------------------------------*/
 .modal-dialog {
   margin: 100px auto!important;
