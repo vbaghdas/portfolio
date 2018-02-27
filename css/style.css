@@ -1241,7 +1241,7 @@ p {
 
 .grid-3-col.grid-gutter .work-item {
   padding: 0 0 5px 5px;
-  width: 50%;
+  width: 33%;
   height: auto;
   float: left;
   overflow: hidden;
